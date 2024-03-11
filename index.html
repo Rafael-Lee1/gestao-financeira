@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Finanças</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Gerenciador de Finanças</h1>
+    <div>
+        <input type="text" id="descriptionInput" placeholder="Descrição da Transação">
+        <input type="number" id="amountInput" placeholder="Valor da Transação">
+        <button id="addTransactionButton">Adicionar Transação</button>
+    </div>
+    <div id="balance">
+        <h2>Saldo Atual: <span id="balanceAmount">0</span></h2>
+    </div>
+    <ul id="transactionList">
+        <!-- A lista de transações será gerada dinamicamente aqui -->
+    </ul>
+
+    <script src="jquery-x.y.z.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
